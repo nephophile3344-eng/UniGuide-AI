@@ -1,79 +1,58 @@
 // ==========================================
 // 1. ÜNİVERSİTE VE BÖLÜM VERİTABANI
 // ==========================================
-const universities = [
+
+  const universities = [
   {
     name: "Massachusetts Institute of Technology (MIT)",
     country: "USA",
     ranking: 1,
-    faculties: [
-      "Computer Science", "Computer Science and Molecular Biology",
-      "Computer Science, Economics, and Data Science", "Biomedical Engineering",
-      "Statistics and Data Science", "Public Policy", "Humanities"
-    ]
+    faculties: ["Computer Science", "Engineering", "Physics", "Mathematics"]
   },
   {
     name: "Harvard University",
     country: "USA",
     ranking: 2,
-    faculties: [
-      "Computer Science", "Economics", "Business & Management",
-      "Law", "Medicine & Health Sciences", "History", "Literature"
-    ]
+    faculties: ["Computer Science", "Economics", "Business", "Law", "Medicine"]
   },
   {
     name: "Stanford University",
     country: "USA",
     ranking: 3,
-    faculties: [
-      "Computer Science", "Engineering", "Business & Management",
-      "Humanities", "Natural Sciences", "Statistics and Data Science"
-    ]
+    faculties: ["Computer Science", "Engineering", "Business", "Medicine"]
   },
   {
     name: "University of Oxford",
     country: "UK",
     ranking: 4,
-    faculties: [
-      "Medicine & Health Sciences", "Law", "Humanities",
-      "Ancient and Medieval Studies", "Literature", "History", "Natural Sciences"
-    ]
+    faculties: ["Medicine", "Law", "Humanities", "History", "Natural Sciences"]
   },
   {
     name: "University of Cambridge",
     country: "UK",
     ranking: 5,
-    faculties: [
-      "Engineering", "Natural Sciences", "Computer Science",
-      "Mathematics", "Medicine & Health Sciences", "Humanities"
-    ]
+    faculties: ["Engineering", "Natural Sciences", "Computer Science", "Mathematics", "Medicine"]
+  },
+  {
+    name: "Imperial College London",
+    country: "UK",
+    ranking: 6,
+    faculties: ["Engineering", "Medicine", "Business", "Natural Sciences", "Computing"]
   },
   {
     name: "University of Toronto",
     country: "Canada",
     ranking: 18,
-    faculties: [
-      "Computer Science", "Engineering", "Business & Management",
-      "Life Sciences", "Arts & Humanities"
-    ]
+    faculties: ["Computer Science", "Engineering", "Business", "Medicine", "Arts"]
   },
   {
     name: "Technical University of Munich",
     country: "Germany",
     ranking: 37,
-    faculties: [
-      "Engineering", "Computer Science", "Natural Sciences", "Medicine & Health Sciences"
-    ]
-  },
-  {
-    name: "Imperial College London",
-    country: "UK",
-    ranking: 2,
-    faculties: [
-      "Aeronautics, Bioengineering,Chemical Engineering,Civil and Environmental Engineering,Computing,Dyson School of Design Engineering,Earth Science and Engineering,Electrical and Electronic Engineering,Materials,Mechanical Engineering,Brain Sciences,Immunology and Inflammation,Infectious Disease,Clinical Sciences,Metabolism Digestion and Reproduction,National Heart and Lung,Public Health,Department of Surgery and Cancer,Chemistry,Mathematics,Physics,Department of Life Sciences,Centre for Environmental Policy,Finance,Management & Entrepreneurship,Economics & Public Policy,Marketing,Analytics & Operations"
-    ]
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
   }
 ];
+
 
 // ==========================================
 // 2. DEĞİŞKENLER VE BAŞLANGIÇ
