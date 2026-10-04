@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analysis - UniGuide AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="profile.html">Profile</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="universities.html">Universities</a>
+  </nav>
+
+  <main class="analysis-container">
+    <h1> AI Profile Analysis</h1>
+    <p class="subtitle">Let our AI analyze your profile and give you personalized recommendations</p>
+
+    <!-- ÖZET KARTLARI -->
+    <div class="summary-section">
+      <h2>📋 Your Profile Summary</h2>
+      <div class="summary-grid">
+        <div class="summary-card">
+          <h3>📊 Academic Scores</h3>
+          <ul id="scoresList"></ul>
+        </div>
+        <div class="summary-card">
+          <h3>🎯 Activities</h3>
+          <ul id="activitiesList"></ul>
+        </div>
+        <div class="summary-card">
+          <h3> Target Universities</h3>
+          <ul id="universitiesList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ANALİZ BUTONU -->
+    <div class="action-section">
+      <button id="analyzeBtn" class="btn-analyze">
+        🚀 Analyze My Profile
+      </button>
+    </div>
+
+    <!-- LOADING -->
+    <div id="loadingSection" class="loading-section hidden">
+      <div class="spinner"></div>
+      <p>AI is analyzing your profile...</p>
+      <p class="loading-hint">This may take 10-20 seconds</p>
+    </div>
+
+    <!-- SONUÇ -->
+    <div id="resultSection" class="result-section hidden">
+      <h2>✨ Your Personalized Analysis</h2>
+      <div id="analysisResult" class="analysis-content"></div>
+      
+      <div class="result-actions">
+        <button onclick="window.location.href='profile.html'" class="btn-secondary">
+          ← Edit Profile
+        </button>
+        <button onclick="window.location.href='universities.html'" class="btn-secondary">
+          🎓 Change Universities
+        </button>
+        <button onclick="startOver()" class="btn-primary">
+          🔄 Start Over
+        </button>
+      </div>
+    </div>
+
+    <!-- HATA -->
+    <div id="errorSection" class="error-section hidden">
+      <h2>❌ Something went wrong</h2>
+      <p id="errorMessage"></p>
+      <button onclick="retryAnalysis()" class="btn-primary">
+        🔄 Try Again
+      </button>
+    </div>
+
+  </main>
+
+  <!-- API Config -->
+  <script src="config.js"></script>
+  <!-- Analysis Logic -->
+  <script src="analysis.js"></script>
+</body>
+</html>

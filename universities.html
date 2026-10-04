@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universities - UniGuide AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="profile.html">Profile</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="universities.html">Universities</a>
+  </nav>
+
+  <main class="wizard-container">
+    <h1>🎓 Choose Your Target Universities</h1>
+    
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <p class="step-counter">Step <span id="currentStep">1</span> of <span id="totalSteps">3</span></p>
+
+    <!-- STEP 1: COUNTRY -->
+    <div class="step active" data-step="1">
+      <h2>🌍 Which country do you want to study in?</h2>
+      <p class="hint">Select your preferred study destination</p>
+      
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label style="font-weight: bold; display: block; margin-bottom: 0.5rem;">Select Country</label>
+        <select id="countrySelect" style="width: 100%; padding: 1rem; border-radius: 8px; border: 2px solid #e0e0e0; font-size: 1rem;">
+          <option value="">-- Select Country --</option>
+        </select>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn-back" onclick="window.location.href='profile.html'">← Back to Profile</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: UNIVERSITY -->
+    <div class="step" data-step="2">
+      <h2>🏛️ Select Your Target University</h2>
+      <p class="hint">Choose the country first, then the university will appear.</p>
+      
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label style="font-weight: bold; display: block; margin-bottom: 0.5rem;">Select University</label>
+        <select id="uniSelect" disabled style="width: 100%; padding: 1rem; border-radius: 8px; border: 2px solid #e0e0e0; font-size: 1rem; background: #f9f9f9;">
+          <option value="">-- First select a country --</option>
+        </select>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: FACULTY -->
+    <div class="step" data-step="3">
+      <h2>📚 Choose Your Faculty/Major</h2>
+      <p class="hint">Select your desired field of study at the chosen university.</p>
+      
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label style="font-weight: bold; display: block; margin-bottom: 0.5rem;">Select Faculty / Major</label>
+        <select id="facultySelect" disabled style="width: 100%; padding: 1rem; border-radius: 8px; border: 2px solid #e0e0e0; font-size: 1rem; background: #f9f9f9;">
+          <option value="">-- First select a university --</option>
+        </select>
+      </div>
+
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-finish" onclick="finishSelection()">Analyze My Profile 🚀</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- JS Dosyaları -->
+  <script src="config.js"></script>
+  <script src="universities.js"></script>
+</body>
+</html>

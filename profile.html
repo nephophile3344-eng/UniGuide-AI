@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile and CV Analyses</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="profile.html">Profile</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="universities.html">Universities</a>
+  </nav>
+
+  <main class="wizard-container">
+    <h1>📝 Build Your Profile</h1>
+    
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <p class="step-counter">Step <span id="currentStep">1</span> of <span id="totalSteps">10</span></p>
+
+    <!-- STEP 1: GPA -->
+    <div class="step active" data-step="1">
+      <h2>📊 What's your GPA?</h2>
+      <p class="hint">Your Grade Point Average (0.0 - 4.0)</p>
+      <input type="number" id="gpa" min="0" max="4" step="0.01" placeholder="e.g., 3.8">
+      <button class="btn-next" onclick="nextStep()">Next →</button>
+    </div>
+
+    <!-- STEP 2: SAT -->
+    <div class="step" data-step="2">
+      <h2>📈 SAT Score</h2>
+      <p class="hint">Your SAT score (400 - 1600)</p>
+      <input type="number" id="sat" min="400" max="1600" placeholder="e.g., 1500">
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: AP -->
+    <div class="step" data-step="3">
+      <h2>📚 AP Courses</h2>
+      <p class="hint">How many AP courses have you completed?</p>
+      <input type="number" id="ap" min="0" placeholder="e.g., 5">
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: IB -->
+    <div class="step" data-step="4">
+      <h2> IB Score</h2>
+      <p class="hint">Your International Baccalaureate score (0 - 45)</p>
+      <input type="number" id="ib" min="0" max="45" placeholder="e.g., 38">
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 5: TOEFL/IELTS -->
+    <div class="step" data-step="5">
+      <h2>🌍 English Proficiency</h2>
+      <p class="hint">TOEFL (0-120) or IELTS (0-9)</p>
+      <div class="input-row">
+        <input type="number" id="toefl" min="0" max="120" placeholder="TOEFL">
+        <input type="number" id="ielts" min="0" max="9" step="0.5" placeholder="IELTS">
+      </div>
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 6: EXTRACURRICULARS -->
+    <div class="step" data-step="6">
+      <h2>🎯 Extracurricular Activities</h2>
+      <p class="hint">Clubs, sports, volunteering, leadership roles...</p>
+      <textarea id="extracurriculars" rows="4" placeholder="e.g., President of Math Club, Basketball captain..."></textarea>
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 7: SUPERCURRICULARS -->
+    <div class="step" data-step="7">
+      <h2>🔬 Supercurricular Activities</h2>
+      <p class="hint">Academic projects, research, online courses, competitions...</p>
+      <textarea id="supercurriculars" rows="4" placeholder="e.g., MIT OpenCourseWare, Science fair project..."></textarea>
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 8: AWARDS -->
+    <div class="step" data-step="8">
+      <h2>🏆 Awards & Honors</h2>
+      <p class="hint">Academic awards, competitions, scholarships...</p>
+      <textarea id="awards" rows="4" placeholder="e.g., National Math Olympiad 1st place..."></textarea>
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <!-- STEP 9: CV -->
+    <div class="step" data-step="9">
+      <h2>📄 Personal Statement</h2>
+      <p class="hint">Tell us about yourself, your goals, and your story...</p>
+      <textarea id="cv" rows="6" placeholder="I am a passionate student who..."></textarea>
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Next →</button>
+      </div>
+    </div>
+
+    <div class="step" data-step="10">
+      <h2>Grade</h2>
+      <p class="hint">What grade are you in?</p>
+      <textarea id="grade" rows="6" placeholder="Freshmen, sophomores, etc."></textarea>
+      <div class="btn-group">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-finish" onclick="finishProfile()">Complete Profile ✓</button>
+      </div>
+    </div>
+    <button id="resetBtn" class="btn-reset">️ Reset Profile</button>
+
+
+  </main>
+
+  <script src="profile.js"></script>
+</body>
+</html>
