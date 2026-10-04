@@ -64,7 +64,7 @@ const universities = [
     faculties: [
       "Engineering", "Computer Science", "Natural Sciences", "Medicine & Health Sciences"
     ]
-  }
+  },
   {
     name: "Imperial College London",
     country: "UK",
