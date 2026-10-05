@@ -32,23 +32,7 @@
   name: "University of Cambridge",
   country: "UK",
   ranking: 5,
-  faculties: [
-    "Computer Science and Technology",
-    "Engineering",
-    "Natural Sciences",
-    "Mathematics",
-    "Medicine",
-    "Law",
-    "Economics",
-    "Psychology",
-    "History",
-    "Philosophy",
-    "Music",
-    "Architecture",
-    "Chemical Engineering and Biotechnology",
-    "Materials Science and Metallurgy",
-    "Physics"
-  ]
+  faculties: [ "Computer Science and Technology","Engineering", "Natural Sciences","Mathematics","Medicine", "Law","Economics", "Psychology","History", "Philosophy", "Music","Architecture","Chemical Engineering and Biotechnology","Materials Science and Metallurgy","Physics" ]
 },
   {
     name: "Imperial College London",
