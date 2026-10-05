@@ -25,19 +25,36 @@
     name: "University of Oxford",
     country: "UK",
     ranking: 4,
-    faculties: ["Medicine", "Law", "Humanities", "History", "Natural Sciences"]
+    faculties: ["American Institute, Rothermere, Art, Ruskin School of, Asian and Middle Eastern Studies, Faculty of, Classics, Faculty of, English Language and Literature, Faculty of, Ertegun Graduate Scholarship Programme in the Humanities, The, Ethics in AI, Institute for, History, Faculty of, History of Art Department, Linguistics, Philology and Phonetics, Faculty of, Medieval and Modern Languages, Faculty of, Modern Slavery & Human Rights Policy & Evidence Centre, Music, Faculty of, Philosophy, Faculty of, Theology and Religion, Faculty of, TORCH | The Oxford Research Centre in the Humanities, Voltaire Foundation, Begbroke Science Park, Biology, Department of, Chemistry, Department of, Computer Science, Department of, Doctoral Training Centre, Earth Sciences, Department of, Engineering Science, Department of, Materials, Department of, Mathematical Institute, Physics, Department of, Statistics, Department of, Biochemistry, Department of, Clinical Medicine, Nuffield Department of, Clinical Neurosciences, Nuffield Department of, Experimental Psychology, Department of, Medicine, Radcliffe Department of, Oncology, Department of, Orthopaedics, Rheumatology and Musculoskeletal Sciences, Nuffield Department of, Paediatrics, Department of, Pathology, Sir William Dunn School of, Pharmacology, Department of, Physiology, Anatomy & Genetics, Department of, Population Health, Nuffield Department of, Primary Care Health Sciences, Department of, Psychiatry, Department of, Surgical Sciences, Nuffield Department of, Women's & Reproductive Health, Nuffield Department of, Anthropology and Museum Ethnography, School of, Archaeology, School of, Business School, Saïd, Economics, Department of, Education, Department of, Geography and the Environment, School of, Global and Area Studies, Oxford School of, Government, Blavatnik School of, International Development, Department of, Internet Institute, Oxford, Law, Faculty of, Oxford Martin School, Politics & International Relations, Department of, Social Policy and Intervention, Department of, Sociology, Department of, Department for Continuing Education, Astrophoria Foundation Year, Language Centre, Oxford Lifelong Learning, Ashmolean Museum Oxford, Bodleian Libraries, History of Science Museum, Oxford Botanic Garden & Arboretum, Oxford University Museum of Natural History, Pitt Rivers Museum"]
   },
-  {
-    name: "University of Cambridge",
-    country: "UK",
-    ranking: 5,
-    faculties: ["Engineering", "Natural Sciences", "Computer Science", "Mathematics", "Medicine"]
-  },
+  
+    {
+  name: "University of Cambridge",
+  country: "UK",
+  ranking: 5,
+  faculties: [
+    "Computer Science and Technology",
+    "Engineering",
+    "Natural Sciences",
+    "Mathematics",
+    "Medicine",
+    "Law",
+    "Economics",
+    "Psychology",
+    "History",
+    "Philosophy",
+    "Music",
+    "Architecture",
+    "Chemical Engineering and Biotechnology",
+    "Materials Science and Metallurgy",
+    "Physics"
+  ]
+}]
   {
     name: "Imperial College London",
     country: "UK",
     ranking: 6,
-    faculties: ["Engineering", "Medicine", "Business", "Natural Sciences", "Computing"]
+    faculties: ["Aeronautics, Bioengineering, Chemical Engineering, Civil and Environmental Engineering, Computing, Dyson School of Design Engineering, Earth Science and Engineering, Electrical and Electronic Engineering, Materials, Mechanical Engineering, Brain Sciences, Immunology and Inflammation, Infectious Disease, Institute of Clinical Sciences, Metabolism, Digestion and Reproduction, National Heart and Lung Institute, School of Public Health, Surgery and Cancer, Chemistry, Mathematics, Physics, Life Sciences, Centre for Environmental Policy, Finance, Management and Entrepreneurship, Economics and Public Policy, Marketing, Analytics and Operations"]
   },
   {
     name: "University of Toronto",
