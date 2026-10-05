@@ -49,7 +49,7 @@
     "Materials Science and Metallurgy",
     "Physics"
   ]
-}]
+}
   {
     name: "Imperial College London",
     country: "UK",
