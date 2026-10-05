@@ -38,7 +38,7 @@
     name: "Imperial College London",
     country: "UK",
     ranking: 6,
-    faculties: ["Aeronautics, Bioengineering, Chemical Engineering, Civil and Environmental Engineering, Computing, Dyson School of Design Engineering, Earth Science and Engineering, Electrical and Electronic Engineering, Materials, Mechanical Engineering, Brain Sciences, Immunology and Inflammation, Infectious Disease, Institute of Clinical Sciences, Metabolism, Digestion and Reproduction, National Heart and Lung Institute, School of Public Health, Surgery and Cancer, Chemistry, Mathematics, Physics, Life Sciences, Centre for Environmental Policy, Finance, Management and Entrepreneurship, Economics and Public Policy, Marketing, Analytics and Operations"]
+    faculties: ["Aeronautics", "Bioengineering", "Chemical Engineering", "Civil and Environmental Engineering", "Computing", "Dyson School of Design Engineering", "Earth Science and Engineering", "Electrical and Electronic Engineering", "Materials", "Mechanical Engineering", "Brain Sciences", "Immunology and Inflammation", "Infectious Disease", "Institute of Clinical Sciences", "Metabolism", "Digestion and Reproduction", "National Heart and Lung Institute", "School of Public Health", "Surgery and Cancer", "Chemistry", "Mathematics", "Physics", "Life Sciences", "Centre for Environmental Policy", "Finance", "Management and Entrepreneurship", "Economics and Public Policy", "Marketing", "Analytics and Operations"]
   },
   {
     name: "University of Toronto",
