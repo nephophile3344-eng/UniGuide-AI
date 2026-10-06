@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discovery - UniGuide AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Homepage</a>
+    <a href="profile.html">Profile</a>
+    <a href="universities.html">Universities</a>
+    <a href="discovery.html">Discovery</a>
+    <a href="analysis.html">Analysis</a>
+  </nav>
+
+  <main class="discovery-container">
+    <h1>🔍 Discover Universities</h1>
+    <p class="subtitle">Explore top universities around the world</p>
+
+    <!-- FİLTRELER -->
+    <div class="filters">
+      <select id="countryFilter">
+        <option value="">🌍 All Countries</option>
+      </select>
+      <input type="text" id="searchInput" placeholder=" Search university...">
+    </div>
+
+    <!-- KART GRID -->
+    <div class="university-grid" id="universityGrid"></div>
+
+    <!-- DETAY MODAL -->
+    <div id="uniModal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImg" src="" alt="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalRanking"></p>
+        <p id="modalCountry"></p>
+        <div id="modalFaculties"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="discovery.js"></script>
+</body>
+</html>
