@@ -4,56 +4,56 @@ const universities = [
     name: "Massachusetts Institute of Technology (MIT)",
     country: "USA",
     ranking: 1,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/320px-MIT_logo.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1zn_7bYui8-Cfd8QaBPG3NBoMMmB5v0ZsLfs4YE-mzA&s=10",
     faculties: ["Computer Science", "Engineering", "Physics", "Mathematics", "Economics"]
   },
   {
     name: "Harvard University",
     country: "USA",
     ranking: 2,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Harvard_University_coat_of_arms.svg/320px-Harvard_University_coat_of_arms.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYAwDpf2dVP1E_g73ShHGv00zqB_Sce7q5-JSTz8nX1A&s=10",
     faculties: ["Computer Science", "Economics", "Business", "Law", "Medicine", "History"]
   },
   {
     name: "Stanford University",
     country: "USA",
     ranking: 3,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Stanford_University_seal_2003.svg/320px-Stanford_University_seal_2003.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_IRiqqrnZ04W3r7wMwn-yPkX7hhdq5P8u-g-N3HD2jw&s=10",
     faculties: ["Computer Science", "Engineering", "Business", "Humanities", "Natural Sciences"]
   },
   {
     name: "University of Oxford",
     country: "UK",
     ranking: 4,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Arms_of_University_of_Oxford.svg/320px-Arms_of_University_of_Oxford.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdzY2kmEeq7lnNy7W0X7IBkPZnD224WWA6kSBxu06vyQ&s=10",
     faculties: ["Medicine", "Law", "Humanities", "History", "Natural Sciences"]
   },
   {
     name: "University of Cambridge",
     country: "UK",
     ranking: 5,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cambridge_University_Coat_of_Arms.svg/320px-Cambridge_University_Coat_of_Arms.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7EC9II1xgv8EgVpzaZhUw5ro21Zk7ssyWuzT0d6daEA&s=10",
     faculties: ["Computer Science", "Engineering", "Natural Sciences", "Mathematics", "Medicine"]
   },
   {
     name: "Imperial College London",
     country: "UK",
     ranking: 6,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Imperial_College_London_logo.svg/320px-Imperial_College_London_logo.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwuUdmFkgrc6hRA0_WIbnctaLpvKoaPfOu4615m6HTkQ&s=10",
     faculties: ["Engineering", "Medicine", "Business", "Computing", "Natural Sciences"]
   },
   {
     name: "University of Toronto",
     country: "Canada",
     ranking: 18,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/University_of_Toronto_coat_of_arms.svg/320px-University_of_Toronto_coat_of_arms.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX5xQSOa32EnOaiqzao3sCwCEF5OAid2Ct9ceBQEcB-A&s=10",
     faculties: ["Computer Science", "Engineering", "Business", "Medicine", "Arts"]
   },
   {
     name: "Technical University of Munich",
     country: "Germany",
     ranking: 37,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TU_M%C3%BCnchen_Logo.svg/320px-TU_M%C3%BCnchen_Logo.svg.png",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp77S32_Av_gidJhWrDGh8si37S7EolyH3vNWir2cwZg&s=10",
     faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
   }
 ];
