@@ -572,8 +572,10 @@ h1 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+
 }
 
 .university-card:hover {
