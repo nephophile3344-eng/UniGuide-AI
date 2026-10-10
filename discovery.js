@@ -55,7 +55,95 @@ const universities = [
     ranking: 37,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp77S32_Av_gidJhWrDGh8si37S7EolyH3vNWir2cwZg&s=10",
     faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+  {
+    name: "Princeton Universty",
+    country: "USA",
+    ranking: 27,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBeoQYXoabRzRRRkWM1EBPxSamGpUtxXF8_IbdKUz51A&s",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+  {
+    name: "Yale Universty",
+    country: "USA",
+    ranking: 16,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD8qYx5kSOMpolhaCpMYNVHv53DSpwTayvotmACiw-yQ&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+{
+    name: "California Institute of Technology",
+    country: "USA",
+    ranking: 7,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPJmWJ1r_zsNyGq_jWmNJxAAmOrgNTH096uMbG2_1pw&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+{
+    name: "University of Pennslyvania",
+    country: "USA",
+    ranking: 15,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQHVGtNTCtH5XbM0xZ8jcyU8W9S5tB7O5ERjAf0smdg&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+
+{
+    name: "Duke University",
+    country: "USA",
+    ranking: 70,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkRqMpFaeyFc_E6TufnFeqcvYy9tdjmqa4Jpii1MExvA&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+{
+    name: "Johns Hopkins University",
+    country: "USA",
+    ranking: 20,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuwtv1NBrxoU2FZIH1vTGB5YRNQSgUFVWxCJoqt8KTIA&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+  {
+    name: "Northwestern University",
+    country: "USA",
+    ranking: 45,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1x1DzRBAmYjQEY9VRRHiZnFhqSiqaNl5MLueAyKPOcA&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+  {
+    name: "University of Chicago",
+    country: "USA",
+    ranking: 24,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgnw74u3_Rq_RQ564wpnoGDXQtr6vFqaSR7gPYRlxHow&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+  {
+    name: "Columbia University",
+    country: "USA",
+    ranking: 24,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCzTHNu3CK2KprZcIsLD4FRc4zWkzoIkmz9Vxc1414A&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+ {
+    name: "Dartmouth Collage",
+    country: "USA",
+    ranking: 270,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ynpPuOmz607TfGiu5boxhXexTlTg2LAQVOE1xRiKrw&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+ {
+    name: "Carnegie Mellon University",
+    country: "USA",
+    ranking: 55,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgmfXuoGqYVdxxncM801Pymcp0Vlg-tlVtAor06K2GLg&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
+  },
+ {
+    name: "Cornell University",
+    country: "USA",
+    ranking: 16,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgHX-Q4CY4rpEalXm565IOXNcw4AHQkVGwvAdJAKaJWg&s=10",
+    faculties: ["Engineering", "Computer Science", "Natural Sciences", "Medicine"]
   }
+ 
+
+
 ];
 
 // Sayfa yüklendiğinde
