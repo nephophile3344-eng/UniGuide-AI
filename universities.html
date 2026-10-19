@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Universities - UniGuide AI</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+  // Giriş kontrolü - giriş yapmayan kullanıcı login sayfasına yönlendirilir
+  if (!localStorage.getItem('currentUser')) {
+    alert('Bu sayfaya erişmek için giriş yapmalısınız!');
+    window.location.href = 'login.html?message=' + encodeURIComponent('Bu sayfaya erişmek için önce giriş yapmalısınız.');
+  }
+</script>
 </head>
 <body>
   <nav id="mainNav">
