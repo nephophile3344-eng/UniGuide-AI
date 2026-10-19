@@ -5,16 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Profile and CV Analyses</title>
         <link rel="stylesheet" href="style.css">
+        
 </head>
 <body>
-  <nav>
-    <a href="index.html">Homepage</a>
-    <a href="profile.html">Profile</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="universities.html">Universities</a>
-    <a href= "discovery.html">Discovery </a>
-  </nav>
-
+  <nav id="mainNav">
+  <a href="index.html">Homepage</a>
+  <a href="profile.html" class="auth-link">Profile</a>
+  <a href="analysis.html" class="auth-link">Analysis</a>
+  <a href="universities.html">Universities</a>
+  <a href="discovery.html">Discovery</a>
+  <a href="login.html" class="login-link">Giriş / Kayıt</a>
+  <a href="#" class="logout-link" style="display: none; color: #ff4444;">Çıkış Yap</a>
+</nav>
   <main class="wizard-container">
     <h1>📝 Build Your Profile</h1>
     
@@ -138,5 +140,6 @@
   </main>
 
   <script src="profile.js"></script>
+  <script src="navbar.js"></script>
 </body>
 </html>

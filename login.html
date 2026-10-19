@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giriş Yap / Kayıt Ol - UniGuide AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-card">
+      <h1 id="authTitle">Giriş Yap</h1>
+      <p class="subtitle">UniGuide AI hesabına eriş</p>
+      
+      <form id="authForm">
+        <div class="form-group">
+          <label>E-posta</label>
+          <input type="email" id="email" required placeholder="ornek@email.com">
+        </div>
+        
+        <div class="form-group">
+          <label>Şifre</label>
+          <input type="password" id="password" required placeholder="En az 6 karakter">
+        </div>
+
+        <!-- Sadece Kayıt Ol modunda görünecek -->
+        <div class="form-group" id="nameGroup" style="display: none;">
+          <label>Ad Soyad</label>
+          <input type="text" id="name" placeholder="Adınız Soyadınız">
+        </div>
+
+        <button type="submit" class="btn-primary" id="authBtn">Giriş Yap</button>
+      </form>
+
+      <p class="toggle-text">
+        <span id="toggleQuestion">Hesabın yok mu?</span>
+        <a href="#" id="toggleMode">Kayıt Ol</a>
+      </p>
+      
+      <a href="index.html" class="back-link">← Ana Sayfaya Dön</a>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>

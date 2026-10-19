@@ -180,7 +180,7 @@ h1 {
 }
 
 .btn-next:hover {
-  background: #764ba2;
+  background: #597fe7;
   transform: translateY(-2px);
 }
 
@@ -718,4 +718,99 @@ h1 {
 
 .faculties-list li:last-child {
   border-bottom: none;
+}
+/* GİRİŞ / KAYIT SAYFASI STİLLERİ */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 1rem;
+}
+
+.auth-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-card h1 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.auth-card .subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.auth-card .form-group {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.auth-card label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Önemli: Padding taşmasını engeller */
+}
+
+.auth-card input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 1rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #5a67d8;
+}
+
+.toggle-text {
+  margin-top: 1.5rem;
+  color: #666;
+}
+
+.toggle-text a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link {
+  display: block;
+  margin-top: 1.5rem;
+  color: #888;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-link:hover {
+  color: #333;
 }
