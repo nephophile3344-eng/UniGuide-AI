@@ -181,7 +181,25 @@ async function callOpenAI(prompt) {
 function displayResult(result) {
   document.getElementById('loadingSection').classList.add('hidden');
   document.getElementById('resultSection').classList.remove('hidden');
-  document.getElementById('analysisResult').innerHTML = formatMarkdown(result);
+  
+  const actualResult = document.getElementById('actualResult');
+  const loginOverlay = document.getElementById('loginOverlay');
+  
+  // Sonucu ekrana yaz
+  actualResult.innerHTML = formatMarkdown(result);
+  
+  // KULLANICI GİRİŞ YAPMIŞ MI?
+  const currentUser = localStorage.getItem('currentUser');
+  
+  if (!currentUser) {
+    // Giriş yapmamışsa: Bulanıklaştır ve perdeyi indir
+    actualResult.classList.add('blurred');
+    loginOverlay.classList.remove('hidden');
+  } else {
+    // Giriş yapmışsa: Net göster
+    actualResult.classList.remove('blurred');
+    loginOverlay.classList.add('hidden');
+  }
 }
 
 function formatMarkdown(text) {
