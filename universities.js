@@ -1,9 +1,6 @@
 // Sayfa yüklendiğinde kullanıcı giriş yapmış mı kontrol et
 const currentUser = localStorage.getItem('currentUser');
-if (!currentUser) {
-  // Giriş yapmamışsa login sayfasına at
-  window.location.href = 'login.html';
-}
+
 // ==========================================
 // 1. ÜNİVERSİTE VE BÖLÜM VERİTABANI
 // ==========================================
